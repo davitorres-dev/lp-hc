@@ -21,7 +21,7 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-xl text-gray-600 leading-relaxed">
-              Crie Conteúdo Automático em Segundos. Gere artigos completos a partir de URLs, 
+              Crie Conteúdo Automático em Minutos. Gere artigos completos a partir de URLs, 
               resumos inteligentes e conteúdo otimizado para SEO - diretamente no seu WordPress!
             </p>
             
