@@ -33,7 +33,11 @@ const HeroSection = () => {
                 Experimente por R$19,90/mês
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-4">
+              <Button 
+                onClick={() => handleSmoothScroll('demonstracao')}
+                variant="outline" 
+                size="lg" 
+                className="text-lg px-8 py-4">
                 Ver Demonstração
               </Button>
             </div>
