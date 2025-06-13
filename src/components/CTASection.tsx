@@ -6,7 +6,7 @@ const stats = [
   {
     icon: Clock,
     stat: "+10 Horas",
-    description: "Economia Semanal"
+    description: "De economia Semanal"
   },
   {
     icon: TrendingUp,
