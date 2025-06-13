@@ -45,10 +45,12 @@ const PricingSection = () => {
               
               <div className="flex items-center justify-center space-x-2">
                 <span className="text-2xl text-gray-400 line-through">R$39,90</span>
-                <span className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                  R$19,90
-                </span>
-                <span className="text-gray-600">/mês</span>
+                  <div className="flex items-center justify-center space-x-2">
+                    <span className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+                      R$19,90
+                    </span>
+                    <span className="text-gray-600">/mês</span>
+                </div>
               </div>
             </CardHeader>
 
