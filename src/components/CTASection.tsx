@@ -48,7 +48,7 @@ const CTASection = () => {
                   <item.icon className="w-8 h-8 text-yellow-300" />
                 </div>
                 <div className="text-2xl font-bold text-yellow-300 mb-2">
-                  ✅ {item.stat}
+                  {item.stat}
                 </div>
                 <div className="text-blue-100">
                   {item.description}
