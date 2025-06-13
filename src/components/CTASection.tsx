@@ -5,8 +5,8 @@ import { ArrowRight, TrendingUp, Clock, Users } from "lucide-react";
 const stats = [
   {
     icon: Clock,
-    stat: "10h Economizadas/Semana",
-    description: "Por usuário em produção de conteúdo"
+    stat: "+10 Horas",
+    description: "Economia Semanal"
   },
   {
     icon: TrendingUp,
@@ -15,8 +15,8 @@ const stats = [
   },
   {
     icon: Users,
-    stat: "3x Mais Publicações",
-    description: "Com a mesma equipe e recursos"
+    stat: "3x Mais",
+    description: "Publicações com a mesma equipe"
   }
 ];
 
