@@ -18,7 +18,7 @@ const features = [
   {
     icon: Link,
     title: "Transforme URLs em Artigos",
-    description: "Cole qualquer link e receba conteúdo original e estruturado em segundos, pronto para publicação"
+    description: "Cole qualquer link e receba conteúdo original e estruturado em minutos, pronto para publicação"
   },
   {
     icon: Filter,

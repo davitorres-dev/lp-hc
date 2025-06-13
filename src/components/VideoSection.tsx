@@ -11,7 +11,7 @@ const VideoSection = () => {
             Veja o HoverContent em Ação
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Assista como nosso plugin transforma URLs em artigos completos em segundos
+            Assista como nosso plugin transforma URLs em artigos completos em minutos
           </p>
         </div>
         
@@ -26,9 +26,9 @@ const VideoSection = () => {
                   Demonstração Interativa
                 </h3>
                 <p className="text-gray-600 mb-6 max-w-md mx-auto">
-                  Veja como gerar conteúdo automático a partir de qualquer URL em menos de 30 segundos
+                  Veja como gerar conteúdo automático a partir de qualquer URL em minutos
                 </p>
-                <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
+                <Button className="open-demo-video bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
                   <Play className="w-4 h-4 mr-2" />
                   Assistir Demonstração
                 </Button>
