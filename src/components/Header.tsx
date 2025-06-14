@@ -17,14 +17,13 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
-              <Zap className="w-5 h-5 text-white" />
-            </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              HoverContent
-            </span>
-          </div>
+          <a href="#" className="z-50">
+            <img
+              src="https://www.hovercontent.com/wp-content/uploads/2025/06/logo_hovercontent-v1.svg"
+              alt="Hover Content Logo"
+              className="h-10"
+            />
+          </a>
           
           <nav className="hidden md:flex items-center space-x-6">
             <button 
