@@ -59,7 +59,8 @@ const CTASection = () => {
           </div>
 
           <div className="space-y-6">
-            <Button 
+            <Button
+              onClick={() => window.location.href = "/?add-to-cart=65"}
               size="lg" 
               className="bg-white text-purple-600 hover:bg-gray-100 text-base px-5 py-6 rounded-2xl font-bold shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 gap-0 sm:text-xl sm:px-12"
             >
