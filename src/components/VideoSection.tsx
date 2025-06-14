@@ -17,8 +17,8 @@ const VideoSection = () => {
         
         <div className="max-w-4xl mx-auto">
           <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden">
-            <div className="aspect-video bg-gradient-to-br from-purple-100 to-blue-100 flex items-center justify-center">
-              <div className="text-center">
+            <div className="bg-gradient-to-br from-purple-100 to-blue-100 flex items-center justify-center">
+              <div className="pb-[20px]text-center">
                 <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-6 mx-auto shadow-lg">
                   <Play className="w-8 h-8 text-purple-600 ml-1" />
                 </div>
