@@ -38,7 +38,7 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 size="lg" 
-                className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-lg px-8 py-4"
+                className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-base px-6 py-4 sm:text-xl sm:px-8"
               >
                 Experimente por R$19,90/mês
                 <ArrowRight className="ml-2 w-5 h-5" />
@@ -47,7 +47,7 @@ const HeroSection = () => {
                 onClick={() => handleSmoothScroll('demonstracao')}
                 variant="outline" 
                 size="lg" 
-                className="text-lg px-8 py-4">
+                className="text-base px-8 py-4 sm:text-xl">
                 Ver Demonstração
               </Button>
             </div>
