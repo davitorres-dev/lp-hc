@@ -1,22 +1,22 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, TrendingUp, Clock, Users } from "lucide-react";
+import { ArrowRight, Zap, Target, Rocket } from "lucide-react";
 
-const stats = [
+const benefits = [
   {
-    icon: Clock,
-    stat: "+10 Horas",
-    description: "De economia Semanal"
+    icon: Zap,
+    title: "Economia de Tempo",
+    description: "Automatize a criação de conteúdo e foque no que realmente importa"
   },
   {
-    icon: TrendingUp,
-    stat: "+37% Tráfego Orgânico",
-    description: "Média de crescimento em 3 meses"
+    icon: Target,
+    title: "Conteúdo de Qualidade",
+    description: "IA otimizada para gerar artigos envolventes e relevantes"
   },
   {
-    icon: Users,
-    stat: "3x Mais",
-    description: "Publicações com a mesma equipe"
+    icon: Rocket,
+    title: "Produtividade Máxima",
+    description: "Publique mais conteúdo com a mesma equipe e recursos"
   }
 ];
 
@@ -33,22 +33,22 @@ const CTASection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            Pronto para Multiplicar Sua{" "}
-            <span className="text-yellow-300">Produtividade?</span>
+            Transforme Sua Estratégia de{" "}
+            <span className="text-yellow-300">Conteúdo</span>
           </h2>
           
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Junte-se a <strong>547+ criadores de conteúdo</strong> que já:
+            Descubra como o <strong>HoverContent</strong> pode revolucionar sua produção de conteúdo:
           </p>
           
           <div className="grid md:grid-cols-3 gap-8 mb-12 max-w-4xl mx-auto">
-            {stats.map((item, index) => (
+            {benefits.map((item, index) => (
               <div key={index} className="text-center">
                 <div className="flex items-center justify-center w-16 h-16 bg-white/20 rounded-2xl mx-auto mb-4">
                   <item.icon className="w-8 h-8 text-yellow-300" />
                 </div>
-                <div className="text-2xl font-bold text-yellow-300 mb-2">
-                  {item.stat}
+                <div className="text-xl font-bold text-yellow-300 mb-2">
+                  {item.title}
                 </div>
                 <div className="text-blue-100">
                   {item.description}
@@ -62,12 +62,12 @@ const CTASection = () => {
               size="lg" 
               className="bg-white text-purple-600 hover:bg-gray-100 text-base px-5 py-6 rounded-2xl font-bold shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 gap-0 sm:text-xl sm:px-12"
             >
-              Comece Agora por R$19,90/mês
+              Experimente Grátis por 7 Dias
               <ArrowRight className="ml-3 w-6 h-6" />
             </Button>
             
             <p className="text-sm text-yellow-300 font-medium">
-              ⚡ Preço sobe para R$39,90 após as primeiras 100 licenças!
+              ✨ Sem compromisso • Cancele quando quiser
             </p>
           </div>
         </div>
