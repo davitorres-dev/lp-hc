@@ -37,7 +37,7 @@ const HeroSection = () => {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
-                onClick={() => window.location.href = '/?add-to-cart=65'
+                onClick={() => window.location.href = "/?add-to-cart=65"}
                 size="lg" 
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-base px-6 py-4 sm:text-xl sm:px-8"
               >
