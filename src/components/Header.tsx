@@ -1,4 +1,6 @@
+
 import { Button } from "@/components/ui/button";
+import { Zap } from "lucide-react";
 
 const Header = () => {
   const handleSmoothScroll = (targetId: string) => {
@@ -16,11 +18,9 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <img 
-              src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=32&h=32&fit=crop&crop=center" 
-              alt="HoverContent Logo" 
-              className="w-8 h-8 rounded-lg object-cover"
-            />
+            <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+              <Zap className="w-5 h-5 text-white" />
+            </div>
             <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
               HoverContent
             </span>
