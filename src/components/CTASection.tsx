@@ -60,7 +60,7 @@ const CTASection = () => {
           <div className="space-y-6">
             <Button 
               size="lg" 
-              className="text-base px-5 sm:bg-white text-purple-600 hover:bg-gray-100 text-xl px-12 py-6 rounded-2xl font-bold shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105"
+              className="bg-white text-purple-600 hover:bg-gray-100 text-base px-5 py-6 rounded-2xl font-bold shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 sm:text-xl px-12"
             >
               Comece Agora por R$19,90/mês
               <ArrowRight className="ml-3 w-6 h-6" />
