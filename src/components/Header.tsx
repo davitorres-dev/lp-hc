@@ -1,8 +1,12 @@
 
 import { Button } from "@/components/ui/button";
-import { Zap, LogIn } from "lucide-react";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Zap, LogIn, Menu } from "lucide-react";
+import { useState } from "react";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   const handleSmoothScroll = (targetId: string) => {
     const element = document.getElementById(targetId);
     if (element) {
@@ -11,7 +15,16 @@ const Header = () => {
         block: 'start'
       });
     }
+    setIsOpen(false); // Close mobile menu after navigation
   };
+
+  const navigationItems = [
+    { id: 'recursos', label: 'Recursos' },
+    { id: 'como-funciona', label: 'Como Funciona' },
+    { id: 'demonstracao', label: 'Demonstração' },
+    { id: 'precos', label: 'Preços' },
+    { id: 'faq', label: 'FAQ' },
+  ];
 
   return (
     <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
@@ -25,40 +38,21 @@ const Header = () => {
             />
           </a>
           
+          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <button 
-              onClick={() => handleSmoothScroll('recursos')}
-              className="text-gray-600 hover:text-purple-600 transition-colors"
-            >
-              Recursos
-            </button>
-            <button 
-              onClick={() => handleSmoothScroll('como-funciona')}
-              className="text-gray-600 hover:text-purple-600 transition-colors"
-            >
-              Como Funciona
-            </button>
-            <button 
-              onClick={() => handleSmoothScroll('demonstracao')}
-              className="text-gray-600 hover:text-purple-600 transition-colors"
-            >
-              Demonstração
-            </button>
-            <button 
-              onClick={() => handleSmoothScroll('precos')}
-              className="text-gray-600 hover:text-purple-600 transition-colors"
-            >
-              Preços
-            </button>
-            <button 
-              onClick={() => handleSmoothScroll('faq')}
-              className="text-gray-600 hover:text-purple-600 transition-colors"
-            >
-              FAQ
-            </button>
+            {navigationItems.map((item) => (
+              <button 
+                key={item.id}
+                onClick={() => handleSmoothScroll(item.id)}
+                className="text-gray-600 hover:text-purple-600 transition-colors"
+              >
+                {item.label}
+              </button>
+            ))}
           </nav>
 
-          <div className="flex items-center space-x-3">
+          {/* Desktop Buttons */}
+          <div className="hidden md:flex items-center space-x-3">
             <Button 
               variant="outline"
               onClick={() => window.location.href = "/minha-conta"}
@@ -73,6 +67,51 @@ const Header = () => {
               Começar Agora
             </Button>
           </div>
+
+          {/* Mobile Menu */}
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon" className="md:hidden">
+                <Menu className="h-6 w-6" />
+                <span className="sr-only">Toggle menu</span>
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+              <nav className="flex flex-col space-y-4 mt-8">
+                {navigationItems.map((item) => (
+                  <button
+                    key={item.id}
+                    onClick={() => handleSmoothScroll(item.id)}
+                    className="text-left text-lg text-gray-600 hover:text-purple-600 transition-colors py-2"
+                  >
+                    {item.label}
+                  </button>
+                ))}
+                
+                <div className="flex flex-col space-y-3 pt-6 border-t border-gray-200">
+                  <Button 
+                    variant="outline"
+                    onClick={() => {
+                      window.location.href = "/minha-conta";
+                      setIsOpen(false);
+                    }}
+                    className="flex items-center justify-center space-x-2 w-full"
+                  >
+                    <LogIn className="w-4 h-4" />
+                    <span>Login</span>
+                  </Button>
+                  <Button 
+                    onClick={() => {
+                      window.location.href = "/?add-to-cart=65";
+                      setIsOpen(false);
+                    }}
+                    className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 w-full">
+                    Começar Agora
+                  </Button>
+                </div>
+              </nav>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </header>
