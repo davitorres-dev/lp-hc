@@ -43,7 +43,7 @@ const PricingSection = () => {
                 Licença para 10 Sites
               </h3>
               
-              <div className="flex items-center justify-center space-x-2">
+              <div className="flex sm:items-center justify-center space-x-2">
                 <span className="text-2xl text-gray-400 line-through">R$39,90</span>
                   <div className="flex items-center justify-center space-x-2">
                     <span className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
