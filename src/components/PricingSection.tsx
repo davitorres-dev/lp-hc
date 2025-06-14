@@ -64,7 +64,8 @@ const PricingSection = () => {
                 ))}
               </ul>
 
-              <Button 
+              <Button
+                onClick={() => window.location.href = "/?add-to-cart=65"}
                 className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-base py-6 mb-4 sm:text-lg"
                 size="lg"
               >

@@ -59,7 +59,9 @@ const Header = () => {
             </button>
           </nav>
 
-          <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
+          <Button 
+            onClick={() => window.location.href = "/?add-to-cart=65"}
+            className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
             Começar Agora
           </Button>
         </div>
