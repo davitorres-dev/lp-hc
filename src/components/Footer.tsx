@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-2">
-            <a href="#" className="z-50">
+            <a href="#" className="z-50 mb-8 block">
               <img
                 src="https://www.hovercontent.com/wp-content/uploads/2025/06/logo_hovercontent-v1-white.svg"
                 alt="Hover Content Logo"
