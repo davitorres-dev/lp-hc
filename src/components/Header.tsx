@@ -21,7 +21,7 @@ const Header = () => {
             <img
               src="https://www.hovercontent.com/wp-content/uploads/2025/06/logo_hovercontent-v1.svg"
               alt="Hover Content Logo"
-              className="h-10"
+              className="h-8"
             />
           </a>
           
