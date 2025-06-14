@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Zap } from "lucide-react";
+import { Zap, LogIn } from "lucide-react";
 
 const Header = () => {
   const handleSmoothScroll = (targetId: string) => {
@@ -58,11 +58,21 @@ const Header = () => {
             </button>
           </nav>
 
-          <Button 
-            onClick={() => window.location.href = "/?add-to-cart=65"}
-            className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
-            Começar Agora
-          </Button>
+          <div className="flex items-center space-x-3">
+            <Button 
+              variant="outline"
+              onClick={() => window.location.href = "/minha-conta"}
+              className="flex items-center space-x-2"
+            >
+              <LogIn className="w-4 h-4" />
+              <span>Login</span>
+            </Button>
+            <Button 
+              onClick={() => window.location.href = "/?add-to-cart=65"}
+              className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
+              Começar Agora
+            </Button>
+          </div>
         </div>
       </div>
     </header>
