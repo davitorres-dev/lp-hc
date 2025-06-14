@@ -14,7 +14,7 @@ const Footer = () => {
               <span className="text-xl font-bold">HoverContent</span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
-              Revolucione seu WordPress com IA. Crie conteúdo automático em segundos 
+              Revolucione seu WordPress com IA. Crie conteúdo automático em minutos 
               e multiplique sua produtividade.
             </p>
             <div className="text-sm text-gray-500">
