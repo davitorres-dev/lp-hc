@@ -9,11 +9,11 @@ import {
 const faqs = [
   {
     question: "Há limite de gerações?",
-    answer: "Não limitamos seu uso! O OpenRouter oferece até 1.000 requisições/dia gratuitas. Cada post completo consome 2 requisições, resumos apenas 1."
+    answer: "Nosso plugin não impõe limite ao número de gerações de conteúdo com IA. No entanto, a plataforma de IA que utilizamos, o OpenRouter, estabelece algumas restrições para o uso de modelos gratuitos: contas sem créditos ou com menos de 10 créditos podem realizar até 50 requisições gratuitas por dia, enquanto contas com 10 créditos ou mais têm o limite ampliado para 1.000 requisições gratuitas por dia."
   },
   {
     question: "Por que apenas plano mensal?",
-    answer: "Queremos democratizar o acesso à IA! Planos mensais são mais acessíveis e você cancela quando quiser sem taxas."
+    answer: "Sabemos que muitos dos nossos clientes estão começando suas jornadas digitais, e entendemos que um investimento anual no Hover Content pode ser alto nesse momento inicial. Por isso, seguimos uma filosofia baseada em três princípios: acessibilidade, oferecendo apenas licenças mensais para facilitar o acesso ao produto; flexibilidade, permitindo que você cancele a qualquer momento, sem burocracias; e segurança, com uma garantia de 7 dias — se não estiver satisfeito, devolvemos seu dinheiro."
   },
   {
     question: "Funciona em hospedagem compartilhada?",
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     question: "Qual a qualidade do conteúdo gerado?",
-    answer: "Usamos modelos de última geração (GPT-4, Claude, etc.) que produzem texto humano e otimizado. Você sempre controla e edita o resultado final."
+    answer: "A qualidade do conteúdo gerado pode variar de acordo com o modelo de IA escolhido (como GPT-4, Claude, entre outros). Além disso, você pode personalizar o prompt conforme desejar, ajustando o estilo, o tom e o foco do conteúdo para atender melhor ao seu público. Isso garante mais controle sobre os resultados e permite criar textos realmente alinhados com seus objetivos."
   }
 ];
 
