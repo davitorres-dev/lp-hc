@@ -12,10 +12,6 @@ const faqs = [
     answer: "Nosso plugin não impõe limite ao número de gerações de conteúdo com IA. No entanto, a plataforma de IA que utilizamos, o OpenRouter, estabelece algumas restrições para o uso de modelos gratuitos: contas sem créditos ou com menos de 10 créditos podem realizar até 50 requisições gratuitas por dia, enquanto contas com 10 créditos ou mais têm o limite ampliado para 1.000 requisições gratuitas por dia."
   },
   {
-    question: "Por que apenas plano mensal?",
-    answer: "Sabemos que muitos dos nossos clientes estão começando suas jornadas digitais, e entendemos que um investimento anual no Hover Content pode ser alto nesse momento inicial. Por isso, seguimos uma filosofia baseada em três princípios: acessibilidade, oferecendo apenas licenças mensais para facilitar o acesso ao produto; flexibilidade, permitindo que você cancele a qualquer momento, sem burocracias; e segurança, com uma garantia de 7 dias — se não estiver satisfeito, devolvemos seu dinheiro."
-  },
-  {
     question: "Funciona em hospedagem compartilhada?",
     answer: "Sim! Requer apenas WordPress 5.0+, PHP 7.4+ e conexão estável. (Evite hospedagens gratuitas com menos de 128MB RAM)"
   },

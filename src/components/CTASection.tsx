@@ -64,12 +64,12 @@ const CTASection = () => {
               size="lg" 
               className="bg-white text-purple-600 hover:bg-gray-100 text-base px-5 py-6 rounded-2xl font-bold shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 gap-0 sm:text-xl sm:px-12"
             >
-              Comece Agora por R$19,90/mês
+              Comece Agora por R$97/ano
               <ArrowRight className="ml-3 w-6 h-6" />
             </Button>
             
             <p className="text-sm text-yellow-300 font-medium">
-              ⚡ Preço sobe para R$39,90 após as primeiras 100 licenças!
+              ⚡ Preço sobe para R$197 após as primeiras 100 licenças!
             </p>
           </div>
         </div>

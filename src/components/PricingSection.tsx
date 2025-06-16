@@ -44,12 +44,12 @@ const PricingSection = () => {
               </h3>
               
               <div className="flex flex-col sm:flex-row items-center justify-center space-x-2">
-                <span className="text-2xl text-gray-400 line-through">R$39,90</span>
+                <span className="text-2xl text-gray-400 line-through">R$197</span>
                   <div className="flex items-center justify-center space-x-2">
                     <span className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                      R$19,90
+                      R$97
                     </span>
-                    <span className="text-gray-600">/mês</span>
+                    <span className="text-gray-600">/ano</span>
                 </div>
               </div>
             </CardHeader>
@@ -69,7 +69,7 @@ const PricingSection = () => {
                 className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-base py-6 mb-4 sm:text-lg"
                 size="lg"
               >
-                Começar Agora - R$19,90/mês
+                Começar Agora - R$97/ano
               </Button>
 
               <div className="flex items-center justify-center space-x-2 text-sm text-gray-500">
@@ -82,7 +82,7 @@ const PricingSection = () => {
 
         <div className="text-center mt-8">
           <p className="text-sm text-red-600 font-medium">
-            ⚡ Preço sobe para R$39,90 após as primeiras 100 licenças!
+            ⚡ Preço sobe para R$197 após as primeiras 100 licenças!
           </p>
         </div>
       </div>
