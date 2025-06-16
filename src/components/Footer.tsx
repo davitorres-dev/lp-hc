@@ -19,26 +19,18 @@ const Footer = () => {
               e multiplique sua produtividade.
             </p>
             <div className="text-sm text-gray-500">
-              © 2024 HoverContent. Todos os direitos reservados.
+              © 2025 HoverContent. Todos os direitos reservados.
             </div>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Produto</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="#recursos" className="hover:text-white transition-colors">Recursos</a></li>
-              <li><a href="#precos" className="hover:text-white transition-colors">Preços</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Documentação</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Suporte</a></li>
-            </ul>
+            
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Legal</h4>
+            <h4 className="font-semibold mb-4">Contato</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white transition-colors">Termos de Uso</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Política de Privacidade</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Reembolso</a></li>
+              <li><a href="mailto:contato@hovercontent.com" className="hover:text-white transition-colors">contato@hovercontent.com</a></li>
             </ul>
           </div>
         </div>
