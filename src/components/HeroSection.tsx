@@ -41,7 +41,7 @@ const HeroSection = () => {
                 size="lg" 
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-base px-6 py-4 sm:text-xl sm:px-8"
               >
-                Experimente por R$19,90/mês
+                Experimente por R$97/ano
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
               <Button 
