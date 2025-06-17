@@ -1,6 +1,5 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Star } from "lucide-react";
 
 const testimonials = [
@@ -8,21 +7,18 @@ const testimonials = [
     name: "Carlos Mendes",
     role: "Blogger de Tecnologia",
     content: "O HoverContent transformou minha produtividade! Agora consigo criar artigos de qualidade em minutos ao invés de horas. A IA entende perfeitamente o contexto e gera conteúdo relevante.",
-    avatar: "/placeholder.svg",
     rating: 5
   },
   {
     name: "Ana Silva",
     role: "Gerente de Marketing Digital",
     content: "Impressionante como o plugin consegue extrair informações e transformar em artigos bem estruturados. Nossa equipe aumentou a produção de conteúdo em 300%.",
-    avatar: "/placeholder.svg",
     rating: 5
   },
   {
     name: "Pedro Santos",
     role: "Proprietário de E-commerce",
     content: "Finalmente encontrei uma solução que realmente funciona! O HoverContent me permite manter meu blog sempre atualizado sem gastar horas escrevendo. Recomendo para todos.",
-    avatar: "/placeholder.svg",
     rating: 5
   }
 ];
@@ -54,17 +50,9 @@ const TestimonialsSection = () => {
                   "{testimonial.content}"
                 </p>
                 
-                <div className="flex items-center">
-                  <Avatar className="w-12 h-12 mr-4">
-                    <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
-                    <AvatarFallback className="bg-gradient-to-r from-purple-600 to-blue-600 text-white">
-                      {testimonial.name.split(' ').map(n => n[0]).join('')}
-                    </AvatarFallback>
-                  </Avatar>
-                  <div>
-                    <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-600">{testimonial.role}</p>
-                  </div>
+                <div className="text-center">
+                  <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
+                  <p className="text-sm text-gray-600">{testimonial.role}</p>
                 </div>
               </CardContent>
             </Card>
