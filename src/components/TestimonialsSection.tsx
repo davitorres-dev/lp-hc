@@ -4,21 +4,21 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Carlos Mendes",
-    role: "Blogger de Tecnologia",
-    content: "O HoverContent transformou minha produtividade! Agora consigo criar artigos de qualidade em minutos ao invés de horas. A IA entende perfeitamente o contexto e gera conteúdo relevante.",
+    name: "Débora B.",
+    role: "MojoBooks",
+    content: "Eu gastava horas escrevendo resenhas e posts. Agora, com o Hover Content, tudo sai praticamente pronto com um clique. Salvou meu tempo e ainda aumentou o engajamento no site.",
     rating: 5
   },
   {
-    name: "Ana Silva",
-    role: "Gerente de Marketing Digital",
-    content: "Impressionante como o plugin consegue extrair informações e transformar em artigos bem estruturados. Nossa equipe aumentou a produção de conteúdo em 300%.",
+    name: "Bruno V.",
+    role: "SoulGeek",
+    content: "Tenho um blog geek com atualizações quase diárias. O plugin simplesmente mudou minha rotina. É rápido, inteligente e deixa o conteúdo com a minha cara. Vale cada centavo!",
     rating: 5
   },
   {
-    name: "Pedro Santos",
-    role: "Proprietário de E-commerce",
-    content: "Finalmente encontrei uma solução que realmente funciona! O HoverContent me permite manter meu blog sempre atualizado sem gastar horas escrevendo. Recomendo para todos.",
+    name: "Elias T.",
+    role: "Evirtua",
+    content: "Trabalho com WordPress há anos e nunca vi nada tão prático. A IA escreve bem, entende o contexto do site e ainda consigo editar tudo antes de publicar. Super recomendo.",
     rating: 5
   }
 ];
