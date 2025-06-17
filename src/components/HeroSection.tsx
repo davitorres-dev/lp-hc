@@ -20,7 +20,7 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium">
               <Sparkles className="w-4 h-4" />
-              <span>Promoção: 50% OFF para os primeiros 100 usuários!</span>
+              <span>Promoção: 50% OFF</span>
             </div>
             
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
@@ -31,8 +31,8 @@ const HeroSection = () => {
             </h1>
             
             <p className="text-xl text-gray-600 leading-relaxed">
-              Crie Conteúdo Automático em Minutos. Gere artigos completos a partir de URLs, 
-              resumos inteligentes e conteúdo otimizado para SEO - diretamente no seu WordPress!
+              Gere artigos otimizados com IA direto no WordPress em minutos.
+              Economize tempo, ganhe tráfego e publique conteúdo de qualidade sem esforço.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -41,7 +41,7 @@ const HeroSection = () => {
                 size="lg" 
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-base px-6 py-4 sm:text-xl sm:px-8"
               >
-                Experimente por R$97/ano
+                Comece agora por R$97/ano
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
               <Button 

@@ -69,7 +69,7 @@ const CTASection = () => {
             </Button>
             
             <p className="text-sm text-yellow-300 font-medium">
-              ⚡ Preço sobe para R$197 após as primeiras 100 licenças!
+              ⚡ ÚLTIMA CHANCE - PREÇO PROMOCIONAL
             </p>
           </div>
         </div>

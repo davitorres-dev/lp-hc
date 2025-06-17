@@ -19,7 +19,7 @@ const PricingSection = () => {
         <div className="text-center mb-16">
           <Badge className="bg-gradient-to-r from-red-500 to-pink-500 text-white mb-4 px-4 py-2">
             <Zap className="w-4 h-4 mr-2" />
-            Promoção por Tempo Limitado! 50% OFF para os primeiros 100 usuários
+            Promoção por Tempo Limitado! 50% OFF
           </Badge>
           
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -82,7 +82,7 @@ const PricingSection = () => {
 
         <div className="text-center mt-8">
           <p className="text-sm text-red-600 font-medium">
-            ⚡ Preço sobe para R$197 após as primeiras 100 licenças!
+            ⚡ ÚLTIMA CHANCE - PREÇO PROMOCIONAL
           </p>
         </div>
       </div>
